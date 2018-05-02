@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #777;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+#header{
+    background: #eee;
+    padding: 20px;
+}
+
+#nav {
+    background: #333;
+    color: #eee;
+    padding: 20px;
+}
+
+#mainwrapper {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#section {
+    background: #eee;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+#aside {
+    background: #ddd;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+/* clearfix is applied to the parent container to 'fix' the flow of the page */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#footer {
+    clear: both;
+    background: #ccc;
+    padding: 20px;
+}
