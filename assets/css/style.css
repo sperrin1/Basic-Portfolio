@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+#spaceblock {
+    width: 200px;
+    float: left;
+    padding: 32px;
+    background: #fff;
+    
+    border: solid;
+}
+
+#name {
+    width: 200px;
+    background: #4aaaa5;
+    color: #111;
+    padding: 32px;
+    float: left;
+
+    border: solid;
+}
+
+#nav {
+    margin: 0 auto;
+    background: #fff;
+    color: #111;
+    padding: 32px;
+    float: left;
+
+    border: solid;
+}
+
+#side {
+    margin: 0 auto;
+
+    border: solid;
+}
+
+#aboutme {
+    margin: 0 auto;
+
+    border: solid;
+}
