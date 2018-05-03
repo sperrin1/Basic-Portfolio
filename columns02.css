@@ -7,73 +7,80 @@ body {
     text-align: center;
     margin: 0 auto;
     line-height: 1.5;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 #header{
     background: #eee;
-    padding: 20px;
+    color: #777;
+    padding: 32px;
     border: solid;
     border-color: #777;
     border-width: 10px 0 5px 0;
 }
 
 #nav {
-    background: #333;
-    color: #eee;
-    padding: 20px;
+    background: #eee;
+    color: #777;
+    padding: 32px;
     border: solid;
     border-color: #777;
-    border-width: 5px 0 5px 0;
+    border-width: 5px 0 15px 0;
 }
 
 #mainwrapper {
     width: 70%;
     margin: 0 auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #section {
     background: #eee;
     text-align: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 32px 10px 0 10px;
     float: left;
     width: 50%;
-    height: 400px;
+    height: 300px;
     border: solid;
     border-color: #777;
-    border-width: 5px 5px 5px 0;
+    border-width: 5px 10px 5px 0;
 }
 
 #article {
     background: #777;
-
-    border: solid;
+    color: #eee;
+    padding: 10px;
+    margin: 25px 0 0 0;
 }
 
 #h1 {
     margin: 10px;
-
-    border: solid;
+    background: #eee;
+    color: #777;
+    font-weight: bold;
+    padding: 12px;
 }
 
 #p {
     margin: 10px;
-
-    border: solid;
+    background: #eee;
+    color: #777;
+    padding: 12px;
 }
 
 #aside {
-    background: #ddd;
+    background: #eee;
     text-align: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     float: left;
     width: 50%;
-    height: 400px;
+    height: 300px;
     border: solid;
     border-color: #777;
-    border-width: 5px 0 5px 5px;
+    border-width: 5px 0 5px 10px;
 }
 
 /* clearfix is applied to the parent container to 'fix' the flow of the page */
@@ -85,9 +92,9 @@ body {
 
 #footer {
     clear: both;
-    background: #ccc;
-    padding: 20px;
+    background: #eee;
+    padding: 32px;
     border: solid;
     border-color: #777;
-    border-width: 5px 0 0 0;
+    border-width: 15px 0 0 0;
 }
