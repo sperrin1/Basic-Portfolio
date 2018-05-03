@@ -12,12 +12,18 @@ body {
 #header{
     background: #eee;
     padding: 20px;
+    border: solid;
+    border-color: #777;
+    border-width: 10px 0 5px 0;
 }
 
 #nav {
     background: #333;
     color: #eee;
     padding: 20px;
+    border: solid;
+    border-color: #777;
+    border-width: 5px 0 5px 0;
 }
 
 #mainwrapper {
@@ -33,6 +39,28 @@ body {
     padding: 20px;
     float: left;
     width: 50%;
+    height: 400px;
+    border: solid;
+    border-color: #777;
+    border-width: 5px 5px 5px 0;
+}
+
+#article {
+    background: #777;
+
+    border: solid;
+}
+
+#h1 {
+    margin: 10px;
+
+    border: solid;
+}
+
+#p {
+    margin: 10px;
+
+    border: solid;
 }
 
 #aside {
@@ -42,6 +70,10 @@ body {
     padding: 20px;
     float: left;
     width: 50%;
+    height: 400px;
+    border: solid;
+    border-color: #777;
+    border-width: 5px 0 5px 5px;
 }
 
 /* clearfix is applied to the parent container to 'fix' the flow of the page */
@@ -55,4 +87,7 @@ body {
     clear: both;
     background: #ccc;
     padding: 20px;
+    border: solid;
+    border-color: #777;
+    border-width: 5px 0 0 0;
 }
